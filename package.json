@@ -1,0 +1,14 @@
+{
+  "name": "lab1",
+  "version": "1.0.0",
+  "description": "lab1",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sass main.scss style.css -w"
+  },
+  "author": "Tolibjon Latipov",
+  "license": "ISC",
+  "devDependencies": {
+    "sass": "^1.71.1"
+  }
+}

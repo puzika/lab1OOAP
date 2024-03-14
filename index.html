@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <script defer type="module" src="./index.js"></script>
+      <title>Document</title>
+   </head>
+   <body>
+      <h1 class="header">CubeZone</h1>
+
+      <main class="search">
+         <form action="" class="search__form">
+            <h2 class="search__heading">Make your cube</h2>
+
+            <div>
+               <label for="" class="search__label search__label--category"
+                  >Category</label
+               >
+               <div class="search__categories">
+                  <input
+                     type="radio"
+                     name="category"
+                     id="budget"
+                     class="search__category"
+                     value="budget"
+                  />
+                  <label for="budget" class="search__label search__label--radio"
+                     >budget</label
+                  ><br />
+                  <input
+                     type="radio"
+                     name="category"
+                     id="medium"
+                     class="search__category"
+                     value="medium"
+                  />
+                  <label for="medium" class="search__label search__label--radio"
+                     >medium</label
+                  ><br />
+                  <input
+                     type="radio"
+                     name="category"
+                     id="premium"
+                     class="search__category"
+                     value="premium"
+                     checked
+                  />
+                  <label
+                     for="premium"
+                     class="search__label search__label--radio"
+                     >premium</label
+                  ><br />
+               </div>
+            </div>
+            <button class="search__submit">Search</button>
+         </form>
+
+         <div class="search__results"></div>
+      </main>
+   </body>
+</html>
